@@ -6,21 +6,23 @@ const Header = () => {
   return (
     <div className="w-full h-16 flex justify-center items-center">
       <div className="lg:w-2/3 xl:w-1/2 sm:w-4/5 w-11/12 flex justify-between">
-        <Link href={"/"} className="text-xl font-bold flex gap-4 items-center">
-          <p className="dark:text-gray-500">Sarfraz Ashrafi</p>
+        <div className="flex gap-4 items-center">
+          <Link href={"/"} className="text-xl font-bold">
+            <p className="dark:text-gray-300 ">Sarfraz Ashrafi</p>
+          </Link>
           <div>
             <ThemeSwitch />
           </div>
-        </Link>
+        </div>
 
         <div className="flex gap-4 items-center">
-          <Link href={"/project"} className="text-sm leading-5">
+          <Link href={"/project"} className="text-sm leading-tight">
             Projects
           </Link>
-          <Link href={"/project"} className="text-sm leading-5">
+          <Link href={"/skills"} className="text-sm leading-tight">
             Skills
           </Link>
-          <Link href={"/project"} className="text-sm leading-5">
+          <Link href={"/article"} className="text-sm leading-tight">
             Article
           </Link>
         </div>
