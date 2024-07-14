@@ -11,14 +11,13 @@ const Details = () => {
       <div className="flex flex-col gap-y-1">
         <div className="flex gap-3">
           <p className="text-sm text-gray-600 dark:text-gray-200">
-            ={">"} My name is{" "}
+            ={">"} My name is 
             <span className="font-semibold">Sarfraz Ashrafi.</span>
           </p>
         </div>
         <div className="flex gap-3">
           <p className="text-sm text-gray-600 dark:text-gray-200">
-            {" "}
-            ={">"} A self taught{" "}
+            ={">"} A self taught 
             <span className="font-semibold">programmer</span>, reader and write.
           </p>
         </div>
@@ -141,7 +140,7 @@ const Details = () => {
 
         <div>
           <p className="text-sm">sarfrazk7858@gmail.com</p>
-          <p className="text-sm">+917858016352</p>
+          <p className="text-sm">917858016352</p>
         </div>
       </div>
     </div>
