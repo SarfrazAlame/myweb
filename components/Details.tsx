@@ -99,6 +99,15 @@ const Details = () => {
           </p>
         </div>
       </div>
+
+      <div>
+        <h1 className="text-xl font-bold text-gray-700 font-sans dark:text-gray-300 mb-3">
+          Projects which I've built
+        </h1>
+        <div className="flex gap-4">
+          {/* <p className="cursor-pointer ">Pinstagram</p> */}
+        </div>
+      </div>
     </div>
   );
 };
