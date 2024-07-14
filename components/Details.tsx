@@ -1,11 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { BsGithub, BsLinkedin, BsMedium, BsTwitterX } from "react-icons/bs";
-import { FaHashnode, FaNode, FaReact } from "react-icons/fa6";
-import { IoLogoJavascript } from "react-icons/io";
-import { RiNextjsFill } from "react-icons/ri";
-import { SiTailwindcss, SiTypescript } from "react-icons/si";
-
+import { FaHashnode } from "react-icons/fa6";
 const Details = () => {
   return (
     <div>
@@ -105,7 +101,47 @@ const Details = () => {
           Projects which I've built
         </h1>
         <div className="flex gap-4">
-          {/* <p className="cursor-pointer ">Pinstagram</p> */}
+          <Link
+            href={"https://instagram-chi-seven.vercel.app"}
+            className="cursor-pointer text-sm underline"
+          >
+            Pinstagram
+          </Link>
+          <Link
+            href={"https://twitter-clone-sepia-gamma.vercel.app"}
+            className="cursor-pointer text-sm underline"
+          >
+            Twitter clone
+          </Link>
+          <Link
+            href={"https://medium-five-pi.vercel.app"}
+            className="cursor-pointer text-sm underline"
+          >
+            Medium clone
+          </Link>
+          <Link
+            href={"https://myblog-pi-nine.vercel.app"}
+            className="cursor-pointer text-sm underline"
+          >
+            bloging web
+          </Link>
+          <Link
+            href={"https://github.com/SarfrazAlame/chatApp"}
+            className="cursor-pointer text-sm underline"
+          >
+            messaging app
+          </Link>
+        </div>
+      </div>
+
+      <div className="mt-6">
+        <h1 className="text-xl font-bold text-gray-700 font-sans dark:text-gray-200 mb-4">
+          Contact me
+        </h1>
+
+        <div>
+          <p className="text-sm">sarfrazk7858@gmail.com</p>
+          <p className="text-sm">+917858016352</p>
         </div>
       </div>
     </div>

@@ -16,14 +16,8 @@ const Header = () => {
         </div>
 
         <div className="flex gap-4 items-center">
-          <Link href={"/project"} className="text-sm leading-tight">
-            Projects
-          </Link>
-          <Link href={"/skills"} className="text-sm leading-tight">
-            Skills
-          </Link>
-          <Link href={"/article"} className="text-sm leading-tight">
-            Article
+          <Link href={"https://myblog-pi-nine.vercel.app/"} className="text-sm leading-tight">
+            Read Article
           </Link>
         </div>
       </div>
