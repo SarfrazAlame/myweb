@@ -113,10 +113,10 @@ const Details = () => {
             Twitter clone
           </Link>
           <Link
-            href={"https://medium-five-pi.vercel.app"}
+            href={"https://hashnode-theta.vercel.app"}
             className="cursor-pointer text-sm underline"
           >
-            Medium clone
+            Hashnode clone
           </Link>
           <Link
             href={"https://myblog-pi-nine.vercel.app"}
